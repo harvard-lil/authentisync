@@ -1,0 +1,1 @@
+Authentisync is a GUI program which people can use to copy one file tree to another while writing a manifest of checksums and file paths, and then later verify the checksums of those files to monitor for bitrot. Pre-Alpha. Not ready for use in any way.

@@ -1,0 +1,45 @@
+{
+  "name": "authentisync",
+  "version": "1.0.0",
+  "description": "Authentisync is a GUI program which people can use to copy one file tree to another while writing a manifest of checksums and file paths, and then later verify the checksums of those files to monitor for bitrot. Pre-Alpha. Not ready for use in any way.",
+  "main": "app/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harvard-lil/authentisync.git"
+  },
+  "keywords": [
+    "copy",
+    "verify",
+    "electron",
+    "manifest"
+  ],
+  "author": "asilva@law.harvard.edu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harvard-lil/authentisync/issues"
+  },
+  "homepage": "https://github.com/harvard-lil/authentisync#readme",
+  "devDependencies": {
+    "electron": "^1.6.5",
+    "electron-packager": "^8.6.0",
+    "file": "^0.2.2",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-react": "^3.1.0",
+    "gulp-run": "^1.7.1",
+    "md5": "^2.2.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "reactify": "^1.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "electron-reload": "^1.0.2",
+    "lodash": "^4.13.1",
+    "jquery": "^3.1.0"
+  }
+}
